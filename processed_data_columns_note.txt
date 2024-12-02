@@ -1,0 +1,41 @@
+Old columns: Date, HomeTeam, AwayTeam, FTHG, FTAG, FTR, HTHG, HTAG, HTR, Referee, HS, AS, HST, AST, HC, AC, HF, AF, HY, AY, HR, AR
+Kept Date, HomeTeam, AwayTeam, FTR, Hodds, Aodds, Dodds as Result. Other columns are disposed because they are match data
+
+Hodds, Dodds, Aodds : Average odds of betting sites for the specific match. Corresponds to odds for Home, Draw, Away
+
+home_goals, away_goals : Average goals scored in the most recent N matches of the Home(Away) team
+
+home_oppos_goals, away_oppos_goals : Average goals scored in the recent N matches between the Home and Away
+
+home_oppos_wins, home_oppos_draws, home_oppos_losses :
+The ratio of wins, draws, losses of the Home team in the recent N matches against the Away team. 1 minus the value naturally signifies the ratio of wins, draws, losses of the Away team in the recent N matches against the Home team.
+
+home_wins, away_wins : The win ratio in the most recent N matches of the Home(Away) team
+
+home_losses, away_losses : The loss ratio in the most recent N matches of the Home(Away) team
+
+home_draws, away_draws : The draw ratio in the most recent N matches of the Home(Away) team
+
+home_shots, away_shots : Average # of shootings in the most recent N matches of the Home(Away) team
+
+home_oppos_shots, away_oppos_shots : Average # of shootings in the recent N matches played against the same opponent
+
+home_shotontarget, away_shotontarget : Average # of shootings on target in the most recent N matches of the Home(Away) team
+
+home_oppos_shotontarget, away_oppos_shotontarget : Average # of shots on target in the recent N matches played against the same opponent
+
+home_cornerkicks, away_cornerkicks : Average # of cornerkicks in the most recent N matches of the Home(Away) team
+
+home_oppos_cornerkicks, away_oppos_cornerkicks : Average # of cornerkicks in the recent N matches played against the same opponent
+
+home_fouls, away_fouls : Average # of fouls committed in the most recent N matches of the Home(Away) team
+
+home_oppos_fouls, away_oppos_fouls : Average # of fouls committed in the recent N matches played against the same opponent
+
+home_yellowcards, away_yellowcards : Average # of yellowcards received in the most recent N matches of the Home(Away) team
+
+home_oppos_yellowcards, away_oppos_yellowcards : Average # of yellocards received in the recent N matches played against the same opponent
+
+home_redcards, away_redcards : Average # of redcards received in the most recent N matches of the Home(Away) team
+
+home_oppos_redcards, away_oppos_redcards : Average # of redcards received in the recent N matches played against the same opponent
